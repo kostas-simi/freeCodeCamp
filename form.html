@@ -1,0 +1,46 @@
+<html>
+  <h1 id="title"> Please fill in this form. </h1>
+  <p id="description"> This is a survey form created for runners by runners. </p>
+  <form id="survey-form">
+    <label for="name" id="name-label"> *Please enter your name: </label>
+    <input id="name" type="text" name="name" required placeholder="Name">
+    <br/>
+    <label for="email" id="email-label"> *Please enter your email: </label>
+    <input id="email" type="email" name="email" required
+      placeholder="you@example.com">
+    <br>
+    <label for="number" id="number-label"> *Please enter your age. </label>
+    <input id="number" type="number" name="number" min="1" max="100"
+      required placeholder="1-100">
+    <br>
+    <p> Which of the following energy drinks is your favorite one?
+    <select id="dropdown" name="Energy Drink">
+      <option value="Pr"> Powerade </option>
+      <option value="gr"> Gatorade </option>
+      <option value="rb"> Red Bull </option>
+      <option value="Oth"> Other </option>
+    </select>
+    <br>
+    <p id="shoes"> Which of the following shoe brands do you prefer?
+      <br>
+      <input type="radio" name="shoes" value="nb" checked /> New Ballance
+      <input type="radio" name="shoes" value=""="as" /> Asics
+      <input type="radio" name="shoes" value="nik" /> Nike
+      <input type="radio" name="shoes" value="ad" /> Addias
+  </p>
+  <p id="E_G"> Which of the following energy gels do you like the most?
+    <br/>
+    <input type="radio" name="eg" value="H5" checked /> HIGH5
+    <input type="radio" name="eg" value="a2" /> A2
+    <input type="radio" name="eg" value="a3" /> Other
+  </p>
+  <p id="checkbox"> What did you enjoy the most in our race?
+    <br/>
+    <input type="checkbox" name="like" value="bag" /> The race kit
+    <input type="checkbox" name="like" value="scene" /> The scenery of Kampos
+    <input type="checkbox" name="like" value="org" /> The organisers' treatment
+  </p>
+  <textarea name="come_back" cols="50" rows="6" > Please tell us the reason that would make you participate again. </textarea>
+  <br>
+  <p> Thank you for participating!<br> We hope we will see you again soon! </p>
+  <input type="submit" value="Submit" />
