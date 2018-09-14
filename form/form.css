@@ -1,7 +1,14 @@
-<style>
- #title {
-  color: #43D05D;
-  background-color: grey;
 
+ #title {
+  color: #f2f2f2;
+  background-color: #ccc;
+  text-align: center;
 }
-</style>
+
+body {
+  background-image: url("chios.png");
+  background-color: white;
+  background-size: 750px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
