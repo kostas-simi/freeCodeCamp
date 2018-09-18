@@ -12,3 +12,19 @@ body {
   background-repeat: no-repeat;
   background-position: center;
 }
+
+#name {
+  margin: 0px 0px 10px 5px;
+}
+
+#email{
+  margin: 0px 0px 10px 4.6px;
+}
+
+#number{
+  margin: 0px 0px 10px 17.8px;
+}
+
+#comment{
+
+}
